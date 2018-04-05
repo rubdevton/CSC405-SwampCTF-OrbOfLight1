@@ -1,12 +1,9 @@
 # CSC405-SwampCTF-OrbOfLight1
 Attempt to solve Orb of Light 1 from SwampCTF
 
-The message is decoded but I have no idea of what the 
-flag is. I tried a few possibilities such as encoding
-and decoding "flag" or "secret". I am not sure of how
-to proceed. The encoding and decoding scripts with the
-known dictionary are attached. Run from some CLI using
-Python 3.
+I started off with using https://www.guballa.de/substitution-solver to have something to work with. From there, I could make out some of the words in the estimated decrypted text and started manually creating a dictionary script based on the letters that I replaced to obtain English words (see decode.py for the dictionary). After manually creating all of the known dictionary, I ended up with the decoded message.
+
+The message is decoded but I have no idea of what the flag is. I tried a few possibilities such as encoding and decoding "flag" or "secret". I am not sure of how to proceed. The encoding and decoding scripts with the known dictionary are attached. Run from some CLI using Python 3.
 
 - Ruben (rabaraho@ncsu.edu)
 
